@@ -1,1 +1,1 @@
-# Mediapipe-RNN---Gesture-recognition
+# Mediapipe / RNN - Gestures recognition
