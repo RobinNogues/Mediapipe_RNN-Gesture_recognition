@@ -1,8 +1,8 @@
-# Mediapipe / RNN - Gestures recognition
+# Mediapipe / RNN - Gesture recognition
 This program can recognize gestures of the dataset from both hands. Hands or located with the library Mediapipe, and vectorised into 21 coordinates for each hand. These coordinates are recognised as gestures with the recurrent neural network.
 
 Here are 2 samples videos for:
-- gestures recognition : https://youtu.be/WMdoohGD50E
+- gesture recognition : https://youtu.be/WMdoohGD50E
 - gesture added to the dataset : https://youtu.be/f5fNRzVzyak
 
 ## Libraries
