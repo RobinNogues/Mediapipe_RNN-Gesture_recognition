@@ -24,7 +24,8 @@ main.py, start start_detection() with one parameter which specifies the frequenc
 	    - pause between 2 instances (double, default 0)
     - model.py, start train() to train the model
 
-.
+## Students
+This program has been made by Robin NOGUES with Cyril GUIRGUIS, Hugo BOURREAU and Alex DEMARS as part of the studies at UQAC.
 
 
 
