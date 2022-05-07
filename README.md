@@ -24,8 +24,13 @@ main.py, start start_detection() with one parameter which specifies the frequenc
 	    - pause between 2 instances (double, default 0)
     - model.py, start train() to train the model
 
+## Informations
+The model and the dataset in this repository are those used in the demonstration video.
+
 ## Students
 This program made by Robin NOGUES, is part of a larger project to discover severals models for gestures recognition (CNN, Transfer Learning, Random Forest and RNN), by Hugo BOURREAU, Alex DEMARS, Cyril GUIRGUIS and Robin NOGUES as part of the studies at UQAC.
+
+
 
 
 
