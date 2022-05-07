@@ -1,8 +1,31 @@
 # Mediapipe / RNN - Gestures recognition
+This program can recognize gestures of the dataset from both hands. Hands or located with the library Mediapipe, and vectorised into 21 coordinates for each hand. These coordinates are recognised as gestures with the recurrent neural network.
 
-##Libraries
--tensorflow
--mediapipe
--opencv
--numpy
--keyboard
+Here are 2 samples videos for:
+- gestures recognition : https://youtu.be/WMdoohGD50E
+- gesture added to the dataset : https://youtu.be/f5fNRzVzyak
+
+## Libraries
+- tensorflow
+- mediapipe
+- opencv
+- numpy
+- keyboard
+
+## Tutorial
+- To predict gestures :
+main.py, start start_detection() and specify the frequency of detection (n frames to predict), 5 default (int)
+
+- To add gestures :
+    - main.py, start add_to_dataset() with 4 parameters :
+	    - name of gesture (string)
+	    - number of instances (int, default 100) 
+	    - number of frames per gesture (int, default 20)
+	    - pause between 2 instances (double, default 0)
+    - model.py, start train() to train the model
+
+.
+
+
+
+
