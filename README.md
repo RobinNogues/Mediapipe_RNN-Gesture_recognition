@@ -14,15 +14,15 @@ Here are 2 samples videos for:
 
 ## Tutorial
 - To predict gestures :
-main.py, start start_detection() with one parameter which specifies the frequency of detection (n frames to predict) (int, default 5)
+main.py, use start_detection() with one parameter which specifies the frequency of detection (n frames to predict) (int, default 5)
 
 - To add gestures :
-    - main.py, start add_to_dataset() with 4 parameters :
+    - main.py, use add_to_dataset() with 4 parameters :
 	    - name of gesture (string)
 	    - number of instances (int, default 100) 
 	    - number of frames per gesture (int, default 20)
 	    - pause between 2 instances (double, default 0)
-    - model.py, start train() to train the model
+    - model.py, use train() to train the model
 
 ## Informations
 The model and the dataset in this repository are those used in the demonstration video.
